@@ -11,5 +11,6 @@ namespace CURD.Data
 
 
         public DbSet<Employe> Employe { get; set; }
+        public object Employees { get; internal set; }
     }
 }
